@@ -356,7 +356,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Author**: Your Name  
-**Last Updated**: $(date)  
+**Author**: Areeba Urooj  
 **Terraform Version**: v1.0+  
 **Module Versions**: VPC v6.0.1, EC2 v6.0.2
