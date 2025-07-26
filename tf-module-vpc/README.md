@@ -83,64 +83,42 @@ Type `yes` when prompted to confirm the deployment.
 
 Below are the screenshots showing the complete Terraform deployment process using modules:
 
-![Terraform Apply Output 1](images/terraform-apply-1.png)
+![Terraform Apply Output 1](mod-1.png)
 *Terraform initialization and module download*
 
-![Terraform Apply Output 2](images/terraform-apply-2.png)
+![Terraform Apply Output 2](mod-2.png)
 *Planning phase showing resources to be created*
 
-![Terraform Apply Output 3](images/terraform-apply-3.png)
+![Terraform Apply Output 3](mod-3.png)
 *VPC module resource creation begins*
 
-![Terraform Apply Output 4](images/terraform-apply-4.png)
+![Terraform Apply Output 4](mod-4.png)
 *VPC components being provisioned*
 
-![Terraform Apply Output 5](images/terraform-apply-5.png)
+![Terraform Apply Output 5](mod-5.png)
 *EC2 module initialization and planning*
 
-![Terraform Apply Output 6](images/terraform-apply-6.png)
+![Terraform Apply Output 6](mod-6.png)
 *EC2 instance creation in progress*
 
-![Terraform Apply Output 7](images/terraform-apply-7.png)
+![Terraform Apply Output 7](mod-7.png)
 *Infrastructure deployment completion*
 
-![Terraform Apply Output 8](images/terraform-apply-8.png)
+![Terraform Apply Output 8](mod-8.png)
 *Final output with resource summaries and any module outputs*
 
 ## AWS Console Verification
 
 Screenshots from the AWS Management Console showing the infrastructure created by the modules:
 
-![AWS Console View 1](images/aws-console-1.png)
+![AWS Console View 1](mod-9.png)
 *VPC overview showing subnets, route tables, and internet gateway*
 
-![AWS Console View 2](images/aws-console-2.png)
+![AWS Console View 2](mod-10.png)
 *EC2 instance details and configuration*
 
-![AWS Console View 3](images/aws-console-3.png)
+![AWS Console View 3](mod-11.png)
 *Security groups and networking configuration*
-
-## File Structure
-
-```
-.
-├── main.tf                 # Main Terraform configuration with modules
-├── README.md              # This file
-├── .terraform/            # Terraform working directory (auto-generated)
-│   └── modules/           # Downloaded modules
-└── images/                # Screenshots directory
-    ├── terraform-apply-1.png
-    ├── terraform-apply-2.png
-    ├── terraform-apply-3.png
-    ├── terraform-apply-4.png
-    ├── terraform-apply-5.png
-    ├── terraform-apply-6.png
-    ├── terraform-apply-7.png
-    ├── terraform-apply-8.png
-    ├── aws-console-1.png
-    ├── aws-console-2.png
-    └── aws-console-3.png
-```
 
 ## Configuration Breakdown
 
