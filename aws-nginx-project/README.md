@@ -77,32 +77,32 @@ aws_instance_url = "http://13.51.xxx.xxx"
 
 Below are the screenshots showing the Terraform deployment process:
 
-![Terraform Apply Output 1](tf-1.png)
+![Terraform Apply Output 1](images/tf-1.png)
 *Initial terraform apply command execution*
 
-![Terraform Apply Output 2](tf-2.png)
+![Terraform Apply Output 2](images/tf-2.png)
 *Resource creation progress*
 
-![Terraform Apply Output 3](tf-3.png)
+![Terraform Apply Output 3](images/tf-3.png)
 *VPC and networking resources being created*
 
-![Terraform Apply Output 4](tf-4.png)
+![Terraform Apply Output 4](images/tf-4.png)
 *EC2 instance and security group creation*
 
-![Terraform Apply Output 5](tf-5.png)
+![Terraform Apply Output 5](images/tf-5.png)
 *Final output showing public IP and URL*
 
 ## AWS Console Verification
 
 Screenshots from the AWS Management Console showing the created resources:
 
-![AWS Console View 1](tf-6.png)
+![AWS Console View 1](images/tf-6.png)
 *VPC and networking components in AWS Console*
 
-![AWS Console View 2](tf-7.png)
+![AWS Console View 2](images/tf-7.png)
 *EC2 instance details and status*
 
-![AWS Console View 3](tf-8.png)
+![AWS Console View 3](images/tf-8.png)
 *Security group configuration and rules*
 
 ## File Structure
