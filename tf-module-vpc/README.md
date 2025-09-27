@@ -83,7 +83,7 @@ Type `yes` when prompted to confirm the deployment.
 
 Below are the screenshots showing the complete Terraform deployment process using modules:
 
-![Terraform Apply Output 1](mod-1.png)
+![Terraform Apply Output 1](/images/mod-1.png)
 *Terraform initialization and module download*
 
 ![Terraform Apply Output 2](mod-2.png)
